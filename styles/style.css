@@ -22,3 +22,7 @@
     transition: all 1s linear;
     background: #222222;
 }
+
+.square:hover {
+	transition-duration: 0s;
+}
