@@ -19,7 +19,7 @@
 .square {
     width: 20px;
     height: 20px;
-    transition: all 1s linear;
+    transition: all 0.9s linear;
     background: #222222;
 }
 

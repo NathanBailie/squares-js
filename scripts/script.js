@@ -16,7 +16,7 @@ for (let square of squares.children) {
     });
 
     square.addEventListener('mouseleave', () => {
-        square.style.background = '#202020';
+        square.style.background = '#222222';
     })
 }
 
