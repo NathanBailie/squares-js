@@ -1,12 +1,12 @@
 # Squares-JS
 
-## Description
+### 🗨️ Description
 
 A small game project in vanilla JavaScript demonstrating DOM interaction, event delegation, UI element optimization, and dynamic content creation.
 
 ---
 
-## Tech Stack
+### 🛠️ Tech Stack
 
 - Html
 - SCSS
@@ -14,22 +14,20 @@ A small game project in vanilla JavaScript demonstrating DOM interaction, event 
 
 ---
 
-## Project website
+### 📱 Project website
 
-### You can watch this project here - [Link](https://nathanbailie.github.io/squares-js/ 'Click to visit')
-
----
-
-## Project launch
-
-```
-npm install - install dependencies
-gulp dev - lunch the project in dev mode
-gulp prod - performs the final build of the project
-```
+#### You can watch this project here - [Link](https://nathanbailie.github.io/squares-js/ 'Click to visit')
 
 ---
 
-## Demo
+### 🚀 Project launch
+
+- `npm install` - install dependencies
+- `gulp dev `- lunch the project in dev mode
+- `gulp prod` - performs the final build of the project
+
+---
+
+### 🖥️ Demo
 
 <img src="https://github.com/NathanBailie/squares-js/raw/main/src/assets/demo/demo.gif" width="600" />
