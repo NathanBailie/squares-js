@@ -2,11 +2,14 @@
 	"name": "squares",
 	"version": "1.0.0",
 	"description": "",
-	"scripts": {},
+	"scripts": {
+		"deploy": "gh-pages -d build"
+	},
 	"author": "",
 	"type": "module",
 	"devDependencies": {
 		"browser-sync": "^3.0.3",
+		"gh-pages": "^6.3.0",
 		"gulp": "^5.0.0",
 		"gulp-autoprefixer": "^7.0.1",
 		"gulp-clean": "^0.4.0",

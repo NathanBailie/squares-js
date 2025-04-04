@@ -16,7 +16,7 @@ A small game project in vanilla JavaScript demonstrating DOM interaction, event 
 
 ## Project website
 
-### You can watch this project here - [Link](https://nathanbailie.github.io/squares-js/ 'Click to play')
+### You can watch this project here - [Link](https://nathanbailie.github.io/squares-js/ 'Click to visit')
 
 ---
 
@@ -25,11 +25,11 @@ A small game project in vanilla JavaScript demonstrating DOM interaction, event 
 ```
 npm install - install dependencies
 gulp dev - lunch the project in dev mode
-gulp prod - performs the final build of the project, including cleanup, minification, resource optimization, and moving files to the deployment-ready folder
+gulp prod - performs the final build of the project
 ```
 
 ---
 
 ## Demo
 
-<img src="https://github.com/NathanBailie/squares-js/raw/main/assets/demo/demo.gif" width="600" />
+<img src="https://github.com/NathanBailie/squares-js/raw/main/src/assets/demo/demo.gif" width="600" />
