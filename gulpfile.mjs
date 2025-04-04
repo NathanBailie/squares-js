@@ -92,7 +92,19 @@ function images() {
 /* FAVICON */
 function favicon() {
 	return src('./src/assets/icons/favicon.ico') // get the favicon
-		.pipe(copy('build/assets/icons/favicon.ico', { prefix: 4 })); // copy to destination
+		.pipe(copy('build/assets/icons', { prefix: 4 })); // copy to destination
+}
+
+/* DEMO */
+function demo() {
+	return src('./src/assets/demo/**/*') // get all files in the demo folder
+		.pipe(dest('build/assets/demo')); // copy to destination folder
+}
+
+/* SCREENSHOTS */
+function screenshots() {
+	return src('./src/assets/screenshots/**/*') // get all files in the screenshots folder
+		.pipe(dest('build/assets/screenshots')); // copy to destination folder
 }
 
 /* FONTS */
@@ -146,12 +158,23 @@ function buildSprite() {
 /* TASK EXPORTS */
 export const dev = series(
 	cleanDist,
-	parallel(html, compileSass, scripts, images, favicon, fonts, libs, extras),
+	parallel(html, compileSass, scripts),
 	parallel(serve, watcher)
 );
 
 export const prod = series(
 	cleanDist,
-	parallel(html, compileSass, scripts, images, favicon, fonts, libs, extras),
+	parallel(
+		html,
+		compileSass,
+		scripts,
+		images,
+		favicon,
+		demo,
+		screenshots,
+		fonts,
+		libs,
+		extras
+	),
 	build
 );
