@@ -1,0 +1,21 @@
+@use "../assets/css-libs/normalize.min.css" as *;
+@use "./base/base_styles.scss" as *;
+
+.squares {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #202020;
+}
+
+.square {
+	transition: background-color 0.9s linear;
+	background-color: var(--bg-color, #222222);
+}
+
+.square:hover {
+	transition-duration: 0s;
+}

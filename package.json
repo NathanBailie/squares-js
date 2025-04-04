@@ -1,0 +1,25 @@
+{
+	"name": "squares",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {},
+	"author": "",
+	"type": "module",
+	"devDependencies": {
+		"browser-sync": "^3.0.3",
+		"gulp": "^5.0.0",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-clean": "^0.4.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-copy": "^5.0.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^3.0.0",
+		"gulp-imagemin": "^9.1.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-terser": "^2.1.0",
+		"gulp-useref": "^5.0.0",
+		"gulp.spritesmith": "^6.13.1",
+		"imagemin-pngquant": "^10.0.0",
+		"sass": "^1.80.1"
+	}
+}
