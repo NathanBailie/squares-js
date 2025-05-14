@@ -1,4 +1,4 @@
-('use strict');
+'use strict';
 
 const squares = document.querySelector('.squares');
 let monitorWidth = window.innerWidth;
